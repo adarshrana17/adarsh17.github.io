@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="color-1.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- style-switcher -->
+  <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="color-6.css" class="alternate-style" title="color-6" disabled>
+  <link rel="stylesheet" href="color-7.css" class="alternate-style" title="color-7" disabled>
+  <link rel="stylesheet" href="color-8.css" class="alternate-style" title="color-8" disabled>
+  <link rel="stylesheet" href="color-9.css" class="alternate-style" title="color-9" disabled>
+  <link rel="stylesheet" href="color-10.css" class="alternate-style" title="color-10" disabled>
+  <link rel="stylesheet" href="style-switcher.css">
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div id="header">
+  <div class="background"></div> 
+  
+<div class="container">
+ <nav>
+  <!-- <img src="Images/LOGO.png" width="200px" class="logo"> -->
+  <h1 class="sub-title"><span>A</span>DARSH.</h1>
+  <ul id="sidemenu">
+    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+  <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+  <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+  <li><a href="#services"><i class="fa-solid fa-list"></i> Services</a></li>
+  <li><a href="#"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+  <li><a href="#contact"><i class="fa-solid fa-comments"></i> Contact</a></li>
+  
+</ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+ </nav>
+ <div class="header_text">
+  <h3>Hello my name is <span>Adarsh rana</span>.</h3>
+  <p>I'm a passionate<br> <span id="element"></span></p>
+</div>
+<a href="#contact" class="btn">Hire Me</a>
+</div>
+ </div>
+
+</div>
+       
+  </div>
+  <br>
+  <br>
+  <!-- <hr> -->
+  <!------------------------About------------------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/about (3).png">
+          </div>
+          <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <br>
+          <p><strong>Hello I'm Adarsh Rana and i'm a </strong><span>Software Engineer, Full Stack Developer and Android Developer</span>.</p>
+          <p>I'am from Mandi(H.P). I have done my schooling from H.P bord of school education. And later I have done BCA from Makhanlal Chaturvedi University (Bhopal). And recently I have completed my post graduation in MCA from Chaudhay Charan Singh University (Meerut). </p>
+        <div class="tab-titles">
+          <p class="tab-links" onclick="opentab('skills')"><button class="btn1">Skills</button></p>
+          <p class="tab-links" onclick="opentab('experience')"><button class="btn1">Experience</button></p>
+          <p class="tab-links" onclick="opentab('Personal-Details')"><button class="btn1">Personal-Details</button></p>
+          <p class="tab-links" onclick="opentab('education')"><button class="btn1">Education</button></p>
+          <style>
+            .btn1{
+              display: block;
+               margin:  20px auto;
+               width: fit-content;
+               border: 1px solid var(--skin-color);
+               padding: 4px 15px;
+               border-radius: 26px;
+               text-decoration: none;
+               color: #fff;
+               transition: backgrount 0.5s;
+               display: inline-block;
+               background-color: var(--skin-color);
+            }
+            .btn1:hover{
+                  
+                   transform: scale(1.09);
+                }
+          </style>
+        </div>
+        <div class="tab-contents" id="skills">
+          <div class="row">
+            <div class="skill-item">
+              <h5>Core Java</h5>
+              <div class="progress">
+                <div class="progress-in" style="width: 80%;"></div>
+                <div class="skill-percent">80%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h5>C programming</h5>
+              <div class="progress">
+                <div class="progress-in" style="width: 65%;"></div>
+                <div class="skill-percent">65%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h5>HTML</h5>
+              <div class="progress">
+                <div class="progress-in" style="width: 76%;"></div>
+                <div class="skill-percent">76%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h5>CCS</h5>
+              <div class="progress">
+                <div class="progress-in" style="width: 70%;"></div>
+                <div class="skill-percent">70%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h5>JavaScript</h5>
+              <div class="progress">
+                <div class="progress-in" style="width: 60%;"></div>
+                <div class="skill-percent">60%</div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <h5>SQL</h5>
+              <div class="progress">
+                <div class="progress-in" style="width: 75%;"></div>
+                <div class="skill-percent">75%</div>
+              </div>
+            </div>
+          </div>
+          <!-- <ul>
+            <li><span>Languages : </span>Core Java, C Programming and SQL</li>
+            <li><span>Web Technologies : </span>HTML, CSS and Javascript</li>
+            <li><span>Databases : </span>MySQL</li>
+          </ul> -->
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li>Aug 2022-Dec 2022 Java Training form DUCAT-63</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Personal-Details">
+          <ul>
+            <li><span>Birthday</span> : 17 Nov 2001</li>
+            <li><span>Age</span> : 21</li>
+            <li><span>Email</span> : adarshrana540@gmail.com</li>
+            <li><span>Degree</span> : MCA and BCA</li>
+            <li><span>Mobile No.</span> : 8988207845</li>
+            <li><span>City</span> : Delhi</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2016</span><br>10th from IFLEX International School (H.P)</li>
+            <li><span>2018</span><br>12th from Aryan Public School (H.P)</li>
+            <li><span>2018-2021</span><br>BCA from Makhanlal Chaturvedi University (Bhopal).</li>
+            <li><span>2021-2023</span><br>MCA from Chaudhary Charan Singh University (Meerut).</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <hr> -->
+  <!-----------------services------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Software Engineering</h2>
+          <p>Design and create computer systems and applications to solve real-world problems. Software engineers, sometimes called software developers, create software for computers and applications.</p>
+        </div>
+        <div>
+          <i class="fab fa-app-store"></i>
+          <h2>Full Stack Development</h2>
+          <p>Build both the front end and the back end of a website. The front end (the parts of a website a user sees and interacts with) and the back end (the behind-the-scenes data storage and processing) require different skill sets.</p>
+        </div>
+        <div>
+          <i class="fa-brands fa-android"></i>
+          <h2>Android Development</h2>
+          <p>Designing applications for the Android marketplace. The Android marketplace is the direct competitor to Apple's app store. This means most of an Android Developer's job revolves around creating the apps we use on our smartphones and tablets.</p>
+        </div>
+        <div>
+          <i class="fa-brands fa-java"></i>
+          <h2>java Developer</h2>
+          <p>A Java Developer is a programmer who designs, develops, and manages Java-based applications and software.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------portfolio--------- -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Images/photo-1544006659-f0b21884ce1d.jpeg">
+        </div>
+        <div class="work">
+          <img src="Images/photo.jpeg">
+        </div>
+        <div class="work">
+          <img src="Images/online-shopping.jpg">
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- ------------------Contact----------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact</h1>
+        <p><i class="fa-solid fa-envelope"></i> Email: adarshrana540@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> Mobile: 8988207845</p>
+        <p><i class="fa-solid fa-location-dot"></i>  Address: E-155, Mangolpuri, New Delhi</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+          <br>
+          <a href="Images/myCV.pdf" class="btn">Download CV</a>
+          </div>
+          </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Any Message"></textarea>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+      </div>
+    </div>
+    </div>
+    <!-- -------portfolio------ -->
+    <div class="copyright">
+      Copyright <i class="fa-regular fa-copyright"></i> Adarsh Rana Portfolio
+    </div>
+  </div>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right= "0";
+    }
+    function closemenu(){
+      sidemenu.style.right= "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw9eJX8k5TGUKVWW_VeyqXVykNSYNRDk-nc8A4reBHzAcEbKw630LkONSfW67I3Ecoh/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Software Engineer', 'Full Stack Developer','Android Developer','Java Developer'],
+      typeSpeed: 100,
+      BackSpeed: 60,
+      loop:true
+    });
+  </script>
+  <!-- style-switcher start -->
+  <div class="style-switcher">
+   <div class="style-switcher-toggler s-icon">
+    <i class="fas fa-cog fa-spin"></i>
+   </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      <span class="color-6" onclick="setActiveStyle('color-6')"></span>
+      <span class="color-7" onclick="setActiveStyle('color-7')"></span>
+      <span class="color-8" onclick="setActiveStyle('color-8')"></span>
+      <span class="color-9" onclick="setActiveStyle('color-9')"></span>
+      <span class="color-10" onclick="setActiveStyle('color-10')"></span>
+
+    </div>
+  </div>
+  <!-- style switcher end -->
+  <script src="style-switcher.js"></script>
+</body>
+</html>
