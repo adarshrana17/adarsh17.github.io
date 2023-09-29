@@ -426,7 +426,7 @@ nav i.fa-solid{
 /* --------css for small screen-------------- */
 @media only screen and (max-width: 700px){
   #header{
-  background-image: url(Images/Untitled12-removebg-preview\ -\ Copy.png);
+  background-image: url(Images/small\ screen.png);
 }
 #header h2{
   font-size: 28px;
