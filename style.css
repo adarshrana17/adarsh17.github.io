@@ -424,7 +424,11 @@ nav i.fa-solid{
   display: none;
 }
 /* --------css for small screen-------------- */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 600px){
+  #header{
+    background: none;
+  /* background-image: url(Images/smallscreen.png); */
+}
 #header h2{
   font-size: 28px;
 }
