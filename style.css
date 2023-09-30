@@ -182,7 +182,6 @@ flex-basis: 35%;
       margin-bottom: 30px;
     }
     #about .about-col-2 #skills .skill-item .progress .progress-in{
-      /* position: absolute; */
       left: 0;
       top: 0;
       height: 7px;
@@ -201,7 +200,6 @@ flex-basis: 35%;
     font-weight: 900;
     color: #ffffff;
     position: relative;
-    /* background-color: red; */
   }
   .sub-title::before{
     content: '';
