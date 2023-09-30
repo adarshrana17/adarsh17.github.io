@@ -182,7 +182,7 @@ flex-basis: 35%;
       margin-bottom: 30px;
     }
     #about .about-col-2 #skills .skill-item .progress .progress-in{
-      position: absolute;
+      /* position: absolute; */
       left: 0;
       top: 0;
       height: 7px;
@@ -192,7 +192,7 @@ flex-basis: 35%;
     #about .about-col-2 #skills .skill-item .skill-percent{
       position: absolute;
       right: 0;
-      top: -40px;
+      top: -10px;
       font-weight: 400;
       line-height: -40px;
     }
