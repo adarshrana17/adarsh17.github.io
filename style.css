@@ -35,8 +35,17 @@ body.dark{
   background-size:auto;
   background-position: right;
   margin-top: 50px;
-  /* background-color: var(--bg-black-900); */
+ animation: imganimation 2s linear forwards;
   }
+@keyframes imganimation {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
   .container{
     padding: 15px 5%;
   }
@@ -50,6 +59,8 @@ body.dark{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    width: 90%;
   }
   .container nav h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
